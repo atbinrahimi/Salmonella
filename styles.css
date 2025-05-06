@@ -243,4 +243,30 @@ footer {
         height: auto;
         min-height: 300px;
     }
+}
+
+#references {
+    background: white;
+    border-radius: 18px;
+}
+
+#references h2 {
+    color: #42403d;
+    font-family: 'Merriweather', serif;
+    font-weight: normal;
+}
+
+#references .references-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#references p {
+    font-family: 'Merriweather', serif;
+    color: #645f5a;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
 } 
