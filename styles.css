@@ -104,9 +104,13 @@ footer {
 }
 
 #timeline,
-#gallery,
-#money-usage {
+#gallery {
     background: #ece9e0;
+    border-radius: 18px;
+}
+
+#money-usage {
+    background: white;
     border-radius: 18px;
 }
 
@@ -262,6 +266,32 @@ footer {
 }
 
 #references p {
+    font-family: 'Merriweather', serif;
+    color: #645f5a;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+#money-acquisition {
+    background: #ece9e0;
+    border-radius: 18px;
+}
+
+#money-acquisition h2 {
+    color: #42403d;
+    font-family: 'Merriweather', serif;
+    font-weight: normal;
+}
+
+#money-acquisition .money-acquisition-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#money-acquisition p {
     font-family: 'Merriweather', serif;
     color: #645f5a;
     font-size: 1.1rem;

@@ -28,14 +28,7 @@
         <section id="money-usage">
             <h2>What did they use the money for?</h2>
             <div class="money-usage-container">
-                <p>During the American revolutionary war, U.S.A. spent money on a lot of things like paying soldiers, weapons, buy food, and clothes. They also used the money to build ships, move different supplies and troops, and paid for other countries to help them. With the money that they had they also paid the loans from France and Netherlands.</p>
-            </div>
-        </section>
-
-        <section id="money-acquisition">
-            <h2>how did aquire the money?</h2>
-            <div class="money-acquisition-container">
-                <p>The American government only had 2 options to pay for the wars happening, the first option was to print more money and cause inflation and lower the value of their currency. The other option was to take loans off other companies. they did both, they took over 2 million dollars from France in loans and they also ended up taking loans from private Dutch investors and from the Spanish government which they struggled to pay back, you also might be wondering why they didn't tax people a lot to pay for the wars but it was because at this time the government didn't have enough power to change the amount of taxes, and also the fact that the people of America probably would not be happy getting taxed an high amount at a time of war.</p>
+                <p>During the Revolutionary War, the U.S. spent money to pay soldiers, buy food, weapons, and clothes, build ships, move troops and supplies, get help from other countries, and pay back loans from France and the Netherlands.</p>
             </div>
         </section>
 
@@ -50,9 +43,9 @@
             <h2>Gallery</h2>
             <div class="gallery-container">
                 <div class="gallery-box">
-                    <h3>1$ from 1776</h3>
+                    <h3>1$ from the American Revolution</h3>
                     <div class="gallery-image-container">
-                        <img src="eisenhower-dollar.jpg" alt="Eisenhower dollar coin commemorating 1776-1976" class="gallery-image">
+                        <img src="colonial-coin.jpg" alt="Colonial Spanish Dollar coin from 1754" class="gallery-image">
                     </div>
                 </div>
                 <div class="gallery-box">
@@ -62,22 +55,13 @@
                     <h3>Image 3</h3>
                 </div>
                 <div class="gallery-box">
-                    <h3>Benjamin Franklin</h3>
-                    <div class="gallery-image-container">
-                        <img src="benjamin-franklin.jpg" alt="Portrait of Benjamin Franklin" class="gallery-image">
-                    </div>
+                    <h3>Image 4</h3>
                 </div>
                 <div class="gallery-box">
-                    <h3>Marquis de Lafayette</h3>
-                    <div class="gallery-image-container">
-                        <img src="lafayette.jpg" alt="Portrait of Marquis de Lafayette" class="gallery-image">
-                    </div>
+                    <h3>Image 5</h3>
                 </div>
                 <div class="gallery-box">
-                    <h3>George Washington</h3>
-                    <div class="gallery-image-container">
-                        <img src="george-washington.jpg" alt="Portrait of George Washington" class="gallery-image">
-                    </div>
+                    <h3>Image 6</h3>
                 </div>
             </div>
         </section>
