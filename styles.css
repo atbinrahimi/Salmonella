@@ -1,0 +1,136 @@
+:root {
+    --primary-color: #011927;
+    --secondary-color: #ffffff;
+    --text-color: #000000;
+    --background-color: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--background-color);
+}
+
+header {
+    background-color: var(--primary-color) !important;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #888888;
+}
+
+#hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: url('battle-scene.jpg');
+    background-size: cover;
+    background-position: center;
+    color: var(--secondary-color);
+    padding: 0 1rem;
+}
+
+#hero h1 {
+    font-family: 'Georgia', serif;
+    font-size: 4.5rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 6px 6px 24px rgba(0,0,0,1), 0 4px 16px rgba(0,0,0,0.95);
+    display: inline-block;
+}
+
+#hero p {
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+section {
+    padding: 4rem 2rem;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--primary-color);
+    font-size: 2rem;
+}
+
+.timeline-container, .gallery-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+#timeline,
+#gallery {
+    background: #ece9e0;
+    border-radius: 18px;
+}
+
+#timeline h2,
+#gallery h2 {
+    color: #42403d;
+    font-family: 'Merriweather', serif;
+    font-weight: normal;
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    nav ul li {
+        margin: 0.5rem 0;
+    }
+    
+    #hero h1 {
+        font-size: 3rem;
+    }
+    
+    #hero p {
+        font-size: 1.2rem;
+    }
+} 
