@@ -299,4 +299,30 @@ footer {
     text-align: center;
     max-width: 900px;
     margin: 0 auto;
+}
+
+#teamwork {
+    background: #ece9e0;
+    border-radius: 18px;
+}
+
+#teamwork h2 {
+    color: #42403d;
+    font-family: 'Merriweather', serif;
+    font-weight: normal;
+}
+
+#teamwork .teamwork-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#teamwork p {
+    font-family: 'Merriweather', serif;
+    color: #645f5a;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
 } 
